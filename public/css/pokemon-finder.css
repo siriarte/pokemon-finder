@@ -1,0 +1,120 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.td-img{
+    width: 20%;
+}
+
+.td-name{
+    width: 60%;
+    vertical-align: middle  !important;
+    font-size: large;
+    font-weight: bold;
+} 
+
+.td-type{
+    width: 20%;
+    vertical-align: middle  !important;
+    font-size: large;
+    font-weight: bold;
+}
+
+.th-img{
+    width: 20%;
+    font-size: larger;
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.th-name{
+    width: 60%;
+    vertical-align: middle  !important;
+    font-size:x-large;
+    font-weight: bold;
+    color: #17a2b8;
+} 
+
+.th-type{
+    width: 20%;
+    vertical-align: middle  !important;
+    font-size: x-large;
+    color:#17a2b8;
+}
+
+.modal-dialog { 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    margin: auto; 
+    width: 500px; 
+    height: 300px; 
+}
+
+.footer_personal { 
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.link-repo {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#table_result{
+    margin-top: 30px;
+}
