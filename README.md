@@ -1,11 +1,13 @@
 ## Pokemon Finder
 
-Pokemon Finder es una aplicación desarrollada en Laravel 7, que permite buscar Pokemones a por nombre parcial utilizando la [PokeApi](https://pokeapi.co)
+Pokemon Finder es una aplicación desarrollada en Laravel 7, que permite buscar Pokemones por nombre parcial utilizando la [PokeApi](https://pokeapi.co)
 
-Actualmente lista de cada pokemon encontrado:
--Imagen
--Nombre
--Tipos
+Actualmente para cada pokemon encontrado muestra su nombre, imagen y tipos.
+
+## Requisitos
+
+Versión de PHP > 7.2
+Libreria sqlite3 para PHP.
 
 ## Instalación
 
