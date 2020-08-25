@@ -5,7 +5,8 @@ function showResultMsg($msg){
 function clearTable(){
     showResultMsg("");
     $("#footer").hide();
-    $("#table_result tr").remove();
+    $("#table_result_head").empty();
+    $("#table_result_body").empty();
 }
 
 function verifyResponse(data, status){
@@ -25,6 +26,9 @@ function verifyResponse(data, status){
 
 function showResults(pokemonArray){
     showResultMsg("Resultado de la búsqueda: " +  pokemonArray.length  + " Pokemons");
+    if(pokemonArray.length == 0){
+        return;
+    }
     const tr = '<tr><th class="th-img"></th><th class="th-name">Nombre</th><th class="th-type">Tipos</th></tr>';
     $("#table_result_head").append(tr);
     pokemonArray.forEach(pokemon => {
